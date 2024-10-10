@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   domain: string = '';
 
-  version: string = '1.1.0';
+  version: string = '1.1.1';
 
   ngOnInit() {
     const parsedUrl = new URL(window.location.href);
